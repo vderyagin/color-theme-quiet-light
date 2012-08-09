@@ -1,4 +1,4 @@
-;; -*- mode: emacs-lisp; mode: rainbow -*-
+;; -*- mode: emacs-lisp; eval: (rainbow-mode 1) -*-
 ;;
 ;; Based on the Quiet Light foam for Espresso, by Ian Beck
 ;; Source: <http://github.com/onecrayon/quiet-light.foam>
