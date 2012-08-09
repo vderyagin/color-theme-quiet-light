@@ -350,7 +350,13 @@
    `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-1 ,blue-1 ,purple-1 ,blue-2 "#999999"])
    '(frame-background-mode 'light)
    `(term-default-bg-color ,bg)
-   `(term-default-fg-color ,fg)))
+   `(term-default-fg-color ,fg)
+   `(vc-annotate-background ,bg)
+   '(vc-annotate-color-map '((20  . "#660000") (40  . "#9E0B0F") (60  . "#A0410D") (80  . "#A36209")
+                             (100 . "#ABA000") (120 . "#598527") (140 . "#1A7B30") (160 . "#007236")
+                             (180 . "#00746B") (200 . "#0076A3") (220 . "#004B80") (240 . "#003471")
+                             (260 . "#1B1464") (280 . "#440E62") (300 . "#630460") (320 . "#9E005D")
+                             (340 . "#9E0039")))))
 
 (provide-theme 'quiet-light)
 
