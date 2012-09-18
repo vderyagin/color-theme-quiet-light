@@ -347,7 +347,11 @@
    `(erb-delim-face ((,class (:inherit font-lock-preprocessor-face :weight bold))))
    `(erb-face ((,class (:background ,white-1))))
    `(erb-out-delim-face ((,class (:inherit erb-delim-face :foreground ,red-2 :weight bold))))
-   `(erb-comment-face ((,class (:inherit bold :foreground ,green-1)))))
+   `(erb-comment-face ((,class (:inherit bold :foreground ,green-1))))
+
+
+   ;; nrepl
+   `(nrepl-error-face ((,class (:inherit font-lock-warning-face)))))
 
   (custom-theme-set-variables
    'quiet-light
