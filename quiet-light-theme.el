@@ -69,6 +69,7 @@
    `(org-checkbox ((,class (:inherit bold))))
    `(org-checkbox-statistics-todo ((,class (:inherit bold))))
    `(org-date ((,class (:foreground ,green-1 :weight bold :underline t))))
+   `(org-date-selected ((,class (:background ,orange-3))))
    `(org-habit-overdue-face ((,class (:inherit org-habit-overdue-future-face :weight bold))))
    `(org-link ((,class (:inherit link))))
    `(org-mode-line-clock ((,class (:inherit mode-line :background ,white-1))))
@@ -314,6 +315,7 @@
    `(speedbar-button-face ((,class (:inherit bold))))
    `(speedbar-directory-face ((,class (:inherit diredp-dir-priv))))
    `(speedbar-file-face ((,class (:inherit diredp-file-name))))
+   `(speedbar-highlight-face ((,class (:background ,orange-4))))
    `(speedbar-selected-face ((,class (:inherit speedbar-file-face :box (:line-width -1 :color ,fg) :weight bold))))
    `(speedbar-separator-face ((,class (:background ,blue-1 :foreground ,fg))))
 
