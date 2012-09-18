@@ -339,6 +339,10 @@
    `(gomoku-O ((,class (:inherit bold :foreground ,red-2))))
    `(gomoku-X ((,class (:inherit bold :foreground ,green-1))))
 
+   ;; ERT
+   `(ert-test-result-expected ((,class (:foreground ,fg :background ,green-2))))
+   `(ert-test-result-unexpected ((,class (:foreground ,fg :background ,pink-1))))
+
    ;; rhtml
    `(erb-delim-face ((,class (:inherit font-lock-preprocessor-face :weight bold))))
    `(erb-face ((,class (:background ,white-1))))
