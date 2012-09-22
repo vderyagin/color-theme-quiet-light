@@ -71,6 +71,7 @@
    `(org-date ((,class (:foreground ,green-1 :weight bold :underline t))))
    `(org-date-selected ((,class (:background ,orange-3))))
    `(org-habit-overdue-face ((,class (:inherit org-habit-overdue-future-face :weight bold))))
+   `(org-hide ((,class (:foreground ,white-1))))
    `(org-link ((,class (:inherit link))))
    `(org-mode-line-clock ((,class (:inherit mode-line :background ,white-1))))
    `(org-mode-line-clock-overrun ((,class (:inherit mode-line :background ,pink-1))))
