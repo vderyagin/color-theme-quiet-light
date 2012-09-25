@@ -12,7 +12,7 @@
 (deftheme quiet-light "Another light color theme")
 
 (let ((class '((class color) (background light) (min-colors 89)))
-      (bg "#e5e5e5") (fg "#333333") (white-1 "#ffffff")
+      (bg "#e5e5e5") (fg "#333333")
       (gray-1   "#808080")
       (green-1  "#448c27") (green-2  "#a3cfa0") (green-3  "#c9e2c9") (green-4  "#ddffdd")
       (orange-1 "#ab6526") (orange-2 "#e06400") (orange-3 "#e5a775") (orange-4 "#f7d1b4")
@@ -28,18 +28,18 @@
    ;; Basics
    `(default ((,class (:foreground ,fg :background ,bg))))
    `(cursor ((,class (:background ,fg :foreground ,fg))))
-   `(fringe ((,class (:background ,white-1))))
+   `(fringe ((,class (:background "white"))))
    `(link ((,class (:foreground ,blue-3 :underline t))))
    `(link-visited ((,class (:inherit link :foreground ,purple-1))))
 
    ;; Highlighting
-   `(hl-line ((,class (:background ,white-1))))
+   `(hl-line ((,class (:background "white"))))
    `(highlight ((,class (:background ,orange-3 :foreground ,fg))))
    `(region ((,class (:background "#c9d0d9"))))
    `(isearch ((,class (:inherit highlight))))
    `(lazy-highlight ((,class (:background ,orange-4))))
    `(secondary-selection ((,class (:inherit lazy-highlight))))
-   `(shadow ((,class (:foreground "#7f7f7f" :background ,white-1))))
+   `(shadow ((,class (:foreground "#7f7f7f" :background "white"))))
    `(match ((,class (:inherit highlight))))
 
    ;; Font-lock
@@ -71,9 +71,9 @@
    `(org-date ((,class (:foreground ,green-1 :weight bold :underline t))))
    `(org-date-selected ((,class (:background ,orange-3))))
    `(org-habit-overdue-face ((,class (:inherit org-habit-overdue-future-face :weight bold))))
-   `(org-hide ((,class (:foreground ,white-1))))
+   `(org-hide ((,class (:foreground "white"))))
    `(org-link ((,class (:inherit link))))
-   `(org-mode-line-clock ((,class (:inherit mode-line :background ,white-1))))
+   `(org-mode-line-clock ((,class (:inherit mode-line :background "white"))))
    `(org-mode-line-clock-overrun ((,class (:inherit mode-line :background ,pink-1))))
    `(org-scheduled ((,class (:inherit default))))
    `(org-scheduled-previously ((,class (:foreground ,red-1 :weight bold))))
@@ -91,7 +91,7 @@
    `(diredp-compressed-file-suffix ((,class (:inherit diredp-ignored-file-name :weight bold))))
    `(diredp-deletion ((,class (:background ,red-2 :foreground ,bg :weight bold))))
    `(diredp-deletion-file-name ((,class (:inherit diredp-deletion))))
-   `(diredp-dir-heading ((,class (:inherit bold :background ,white-1))))
+   `(diredp-dir-heading ((,class (:inherit bold :background "white"))))
    `(diredp-dir-priv ((,class (:inherit bold))))
    `(diredp-file-name ((,class (:foreground ,blue-1))))
    `(diredp-file-suffix ((,class (:inherit diredp-file-name :weight bold))))
@@ -173,7 +173,7 @@
    `(ido-subdir ((,class (:inherit diredp-dir-priv))))
 
    ;; Info
-   `(info-command-ref-item ((,class (:background ,white-1 :foreground ,blue-4))))
+   `(info-command-ref-item ((,class (:background "white" :foreground ,blue-4))))
    `(info-file ((,class (:inherit info-command-ref-item))))
    `(info-node ((,class (:inherit font-lock-type-face))))
 
@@ -210,7 +210,7 @@
    `(anything-bmkext-no--file ((,class (:inherit bmkp-non-file))))
    `(anything-bmkext-w3m ((,class (:inherit bmkp-url))))
    `(anything-bookmarks-su-face ((,class (:inherit bmkp-su-or-sudo))))
-   `(anything-candidate-number ((,class (:inherit mode-line :background ,white-1))))
+   `(anything-candidate-number ((,class (:inherit mode-line :background "white"))))
    `(anything-ff-directory ((,class (:inherit diredp-dir-priv))))
    `(anything-ff-executable ((,class (:foreground ,orange-1))))
    `(anything-ff-file ((,class (:inherit diredp-file-name))))
@@ -342,7 +342,7 @@
    `(textile-ul-bullet-face ((,class (:inherit bold))))
 
    ;; whitespace
-   `(whitespace-trailing ((,class (:inherit font-lock-comment-face :background ,white-1))))
+   `(whitespace-trailing ((,class (:inherit font-lock-comment-face :background "white"))))
    `(whitespace-tab ((,class (:inherit whitespace-trailing :background ,yellow-1))))
    `(whitespace-space-before-tab ((,class (:inherit whitespace-tab))))
    `(whitespace-space-after-tab ((,class (:inherit whitespace-tab))))
@@ -357,7 +357,7 @@
 
    ;; rhtml
    `(erb-delim-face ((,class (:inherit font-lock-preprocessor-face :weight bold))))
-   `(erb-face ((,class (:background ,white-1))))
+   `(erb-face ((,class (:background "white"))))
    `(erb-out-delim-face ((,class (:inherit erb-delim-face :foreground ,red-2 :weight bold))))
    `(erb-comment-face ((,class (:inherit bold :foreground ,green-1))))
 
