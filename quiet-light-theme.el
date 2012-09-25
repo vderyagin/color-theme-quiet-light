@@ -234,6 +234,25 @@
    `(anything-visible-mark ((,class (:inherit diredp-flag-mark))))
    `(anything-w3m-bookmarks-face ((,class (:inherit link))))
 
+   ;; Helm
+   `(helm-header ((,class (:inherit bold :background "#bfbfbf"))))
+   `(helm-selection ((,class (:background "white"))))
+   `(helm-source-header ((,class (:weight bold :background ,green-4))))
+   `(helm-visible-mark ((,class (:weight bold))))
+   `(helm-separator ((,class (:foreground ,gray-1))))
+   `(helm-bookmark-directory ((,class (:inherit diredp-dir-priv))))
+   `(helm-bookmark-file ((,class (:inherit diredp-file-name))))
+   `(helm-bookmark-gnus ((,class (:foreground ,orange-1))))
+   `(helm-bookmark-info ((,class (:foreground ,green-1 :weight bold))))
+   `(helm-bookmarks-su ((,class (:foreground ,red-1))))
+   `(helm-bookmark-w3m ((,class (:inherit link))))
+   `(helm-ff-directory ((,class (:inherit diredp-dir-priv))))
+   `(helm-ff-executable ((,class (:foreground ,orange-1))))
+   `(helm-ff-file ((,class (:inherit diredp-file-name))))
+   `(helm-ff-prefix ((,class (:background ,yellow-1 :foreground ,fg))))
+   `(helm-ff-symlink ((,class (:inherit diredp-symlink))))
+   `(helm-candidate-number ((,class (:inherit mode-line :background "white"))))
+
    ;; sh
    `(sh-heredoc ((,class (:foreground ,orange-2))))
    `(sh-quoted-exec ((,class (:foreground ,red-1))))
