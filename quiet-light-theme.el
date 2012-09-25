@@ -153,16 +153,6 @@
    `(jabber-title-large ((,class (:inherit variable-pitch :weight bold :height 2.0 :width ultra-expanded))))
    `(jabber-title-medium ((,class (:inherit variable-pitch :weight bold :height 1.5 :width expanded))))
 
-   ;; Ioccur
-   `(ioccur-cursor ((,class (:foreground ,fg))))
-   `(ioccur-invalid-regexp ((,class (:inherit font-lock-warning-face))))
-   `(ioccur-match-face ((,class (:background ,orange-4))))
-   `(ioccur-match-overlay-face ((,class (:background ,pink-1))))
-   `(ioccur-num-line-face ((,class (:inherit bold))))
-   `(ioccur-overlay-face ((,class (:background ,white-1))))
-   `(ioccur-regexp-face ((,class (:inherit highlight))))
-   `(ioccur-title-face ((,class (:inherit bold :background "#bfbfbf"))))
-
    ;; Outline
    `(outline-1 ((,class (:inherit font-lock-function-name-face :weight bold))))
    `(outline-2 ((,class (:inherit font-lock-variable-name-face :weight normal))))
