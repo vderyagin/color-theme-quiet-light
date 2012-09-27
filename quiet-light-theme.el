@@ -61,10 +61,10 @@
    `(paren-face-no-match ((,class (:background ,pink-1))))
 
    ;; Org
-   `(org-agenda-clocking ((,class (:background ,green-3))))
+   `(org-agenda-clocking ((,class (:bold t))))
    `(org-agenda-current-time ((,class (:foreground "#555555"))))
    `(org-agenda-date ((,class (:inherit default :slant normal :weight normal :foreground ,orange-1))))
-   `(org-agenda-date-today ((,class (:inherit default :foreground ,orange-1 :slant normal :weight bold :box (:line-width -1 :color ,fg)))))
+   `(org-agenda-date-today ((,class (:foreground ,orange-1 :box (:line-width -1 :color ,fg)))))
    `(org-agenda-structure ((,class (:inherit font-lock-function-name-face :weight bold))))
    `(org-checkbox ((,class (:inherit bold))))
    `(org-checkbox-statistics-todo ((,class (:inherit bold))))
@@ -77,7 +77,7 @@
    `(org-mode-line-clock-overrun ((,class (:inherit mode-line :background ,pink-1))))
    `(org-scheduled ((,class (:inherit default))))
    `(org-scheduled-previously ((,class (:foreground ,red-1 :weight bold))))
-   `(org-scheduled-today ((,class (:inherit org-scheduled :weight bold))))
+   `(org-scheduled-today ((,class (:inherit org-scheduled))))
    `(org-sexp-date ((,class (:inherit org-date :underline nil))))
    `(org-special-keyword ((,class (:foreground ,orange-2 :weight bold))))
    `(org-table ((,class (:foreground ,blue-1))))
