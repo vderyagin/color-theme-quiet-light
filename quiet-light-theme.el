@@ -252,7 +252,7 @@
    `(helm-source-header ((,class (:weight bold :background ,orange-4))))
    `(helm-time-zone-current ((,class (:foreground ,green-1 :box (:line-width -1 :color ,fg)))))
    `(helm-time-zone-home ((,class (:foreground ,orange-1 ))))
-   `(helm-visible-mark ((,class (:inherit region :weight bold))))
+   `(helm-visible-mark ((,class (:weight bold))))
 
    ;; sh
    `(sh-heredoc ((,class (:foreground ,orange-2))))
