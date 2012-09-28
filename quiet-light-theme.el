@@ -294,9 +294,8 @@
 
    ;; Gnus
    `(gnus-summary-cancelled ((,class (:inherit diredp-deletion))))
+   `(gnus-summary-selected ((,class (:background "white"))))
    `(gnus-summary-normal-ancient ((,class (:foreground "#666666"))))
-   `(mm-uu-extract ((,class (:inherit default :background ,yellow-1))))
-   `(gnus-header-name ((,class (:inherit font-lock-builtin-face :weight bold))))
 
    `(gnus-group-news-1-empty ((,class (:foreground ,purple-1))))
    `(gnus-group-news-1 ((,class (:inherit gnus-group-news-1-empty :weight bold))))
@@ -320,8 +319,9 @@
 
    `(gnus-header-content ((,class (:foreground ,green-1))))
    `(gnus-header-from ((,class (:weight bold :foreground ,orange-1))))
-   `(gnus-header-subject ((,class (:foreground ,red-2 :weight bold))))
+   `(gnus-header-name ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(gnus-header-newsgroups ((,class (:foreground "#888a85"))))
+   `(gnus-header-subject ((,class (:foreground ,red-2 :weight bold))))
 
    ;; Message
    `(message-header-name ((,class (:inherit gnus-header-name))))
