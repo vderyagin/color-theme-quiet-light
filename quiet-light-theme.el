@@ -370,4 +370,5 @@
 
 ;; Local Variables:
 ;; no-byte-compile: t
+;; coding: utf-8
 ;; End:
