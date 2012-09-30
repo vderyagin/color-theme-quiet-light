@@ -261,6 +261,7 @@
    `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
    `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
    `(yas-field-highlight-face ((,class (:background ,green-3))))
+   `(ac-completion-face ((,class (:background ,green-3))))
 
    ;; Twittering-mode
    `(my-twittering-metainfo-face ((,class (:foreground "#888888"))))
