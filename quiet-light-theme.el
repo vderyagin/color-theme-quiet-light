@@ -31,6 +31,7 @@
    `(fringe ((,class (:background "white"))))
    `(link ((,class (:foreground ,blue-3 :underline t))))
    `(link-visited ((,class (:inherit link :foreground ,purple-1))))
+   `(error ((,class (:inherit font-lock-warning-face))))
 
    ;; Highlighting
    `(hl-line ((,class (:background "white"))))
