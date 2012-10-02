@@ -74,8 +74,8 @@
    `(org-habit-overdue-face ((,class (:inherit org-habit-overdue-future-face :weight bold))))
    `(org-hide ((,class (:foreground "white"))))
    `(org-link ((,class (:inherit link))))
-   `(org-mode-line-clock ((,class (:inherit mode-line :background "white"))))
-   `(org-mode-line-clock-overrun ((,class (:inherit mode-line :background ,pink-1))))
+   `(org-mode-line-clock ((,class (:background "white"))))
+   `(org-mode-line-clock-overrun ((,class (:background ,pink-1))))
    `(org-scheduled ((,class (:inherit default))))
    `(org-scheduled-previously ((,class (:foreground ,red-1 :weight bold))))
    `(org-scheduled-today ((,class (:inherit org-scheduled))))
@@ -194,6 +194,7 @@
 
    ;; Compilation
    `(compilation-error ((,class (:inherit font-lock-warning-face :weight bold))))
+   `(compilation-mode-line-fail ((,class (:inherit compilation-error))))
    `(compilation-info ((,class (:background ,bg :foreground ,green-1 :weight bold))))
    `(compilation-warning ((,class (:background ,bg :foreground ,orange-2 :weight bold))))
 
