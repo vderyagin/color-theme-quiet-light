@@ -235,7 +235,7 @@
    `(helm-source-header ((,class (:inherit org-agenda-structure))))
    `(helm-time-zone-current ((,class (:foreground ,green-1 :box (:line-width -1 :color ,fg)))))
    `(helm-time-zone-home ((,class (:foreground ,orange-1 ))))
-   `(helm-visible-mark ((,class (:weight bold))))
+   `(helm-visible-mark ((,class (:inherit diredp-flag-mark))))
 
    ;; sh
    `(sh-heredoc ((,class (:foreground ,orange-2))))
