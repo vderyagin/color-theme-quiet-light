@@ -31,7 +31,9 @@
    `(fringe ((,class (:background "white"))))
    `(link ((,class (:foreground ,blue-3 :underline t))))
    `(link-visited ((,class (:inherit link :foreground ,purple-1))))
-   `(error ((,class (:inherit font-lock-warning-face))))
+   `(error ((,class (:inherit font-lock-warning-face :weight bold))))
+   `(warning ((,class (:foreground ,orange-2 :weight bold))))
+   `(success ((,class (:foreground ,green-1 :weight bold))))
 
    ;; Highlighting
    `(hl-line ((,class (:background "white"))))
@@ -356,14 +358,24 @@
    `(erb-out-delim-face ((,class (:inherit erb-delim-face :foreground ,red-2 :weight bold))))
    `(erb-comment-face ((,class (:inherit bold :foreground ,green-1))))
 
+   ;; term
+   `(term-face ((,class (:inherit default))))
+   `(term-color-black ((,class (:foreground ,fg))))
+   `(term-color-red ((,class (:foreground ,red-2))))
+   `(term-color-green ((,class (:foreground ,green-1))))
+   `(term-color-yellow ((,class (:foreground ,orange-1))))
+   `(term-color-blue ((,class (:foreground ,blue-1))))
+   `(term-color-magenta ((,class (:foreground ,purple-1))))
+   `(term-color-cyan ((,class (:foreground ,blue-2))))
+   `(term-color-white ((,class (:foreground "#999999"))))
 
    ;; nrepl
    `(nrepl-error-face ((,class (:inherit font-lock-warning-face)))))
 
   (custom-theme-set-variables
    'quiet-light
-   `(ansi-term-color-vector [unspecified ,fg ,red-2 ,green-1 ,orange-1 ,blue-1 ,purple-1 ,blue-2 "#999999"])
    `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-1 ,blue-1 ,purple-1 ,blue-2 "#999999"])
+   `(ansi-color-faces-vector [default bold font-lock-comment-face italic underline success warning error])
    '(frame-background-mode 'light)
    `(term-default-bg-color ,bg)
    `(term-default-fg-color ,fg)
