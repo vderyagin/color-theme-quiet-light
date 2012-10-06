@@ -361,13 +361,11 @@
    ;; term
    `(term-face ((,class (:inherit default))))
    `(term-color-black ((,class (:foreground ,fg))))
-   `(term-color-red ((,class (:foreground ,red-2))))
    `(term-color-green ((,class (:foreground ,green-1))))
    `(term-color-yellow ((,class (:foreground ,orange-1))))
    `(term-color-blue ((,class (:foreground ,blue-1))))
    `(term-color-magenta ((,class (:foreground ,purple-1))))
    `(term-color-cyan ((,class (:foreground ,blue-2))))
-   `(term-color-white ((,class (:foreground "#999999"))))
 
    ;; nrepl
    `(nrepl-error-face ((,class (:inherit font-lock-warning-face)))))
