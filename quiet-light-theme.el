@@ -95,17 +95,19 @@
    `(org-warning ((,class (:inherit font-lock-warning-face :background ,bg :weight bold))))
 
    ;; Dired+
-   `(diredp-executable-tag ((,class (:inherit font-lock-function-name-face))))
-   `(diredp-ignored-file-name ((,class (:inherit font-lock-string-face))))
    `(diredp-compressed-file-suffix ((,class (:inherit diredp-ignored-file-name :weight bold))))
    `(diredp-deletion ((,class (:background ,pink-1 :weight bold))))
    `(diredp-deletion-file-name ((,class (:inherit diredp-deletion))))
    `(diredp-dir-heading ((,class (:inherit bold :background "white"))))
    `(diredp-dir-priv ((,class (:inherit bold))))
+   `(diredp-executable-tag ((,class (:inherit font-lock-function-name-face))))
    `(diredp-file-name ((,class (:foreground ,blue-1))))
    `(diredp-file-suffix ((,class (:inherit diredp-file-name :weight bold))))
    `(diredp-flag-mark ((,class (:background ,purple-2 :weight bold))))
    `(diredp-flag-mark-line ((,class (:inherit diredp-flag-mark))))
+   `(diredp-ignored-file-name ((,class (:inherit font-lock-string-face))))
+   `(diredp-mode-line-flagged ((,class (:foreground ,red-2 :weight bold))))
+   `(diredp-mode-line-marked ((,class (:foreground ,purple-1 :weight bold))))
    `(diredp-number ((,class (:inherit bold))))
    `(diredp-symlink ((,class (:foreground ,gray-1))))
 
