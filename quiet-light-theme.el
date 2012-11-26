@@ -260,20 +260,21 @@
    `(slime-repl-prompt-face ((,class (:inherit minibuffer-prompt))))
 
    ;; Misc
+   `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
    `(comint-highlight-prompt ((,class (:inherit minibuffer-prompt))))
    `(desktop-entry-group-header-face ((,class (:inherit font-lock-type-face))))
+   `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
+   `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
    `(linum ((,class (:background "#d0d0d0" :foreground ,fg))))
    `(minibuffer-prompt ((,class (:foreground ,blue-1 :weight bold))))
    `(proced-marked ((,class (:inherit diredp-flag-mark))))
+   `(tuareg-font-lock-governing-face ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(which-func ((,class (:inherit font-lock-function-name-face :weight bold))))
-   `(woman-bold ((,class (:inherit font-lock-string-face :weight bold))))
-   `(woman-addition ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(widget-button ((,class (:underline nil :weight bold))))
-   `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
-   `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
+   `(woman-addition ((,class (:inherit font-lock-builtin-face :weight bold))))
+   `(woman-bold ((,class (:inherit font-lock-string-face :weight bold))))
    `(yas-field-highlight-face ((,class (:background ,green-3))))
-   `(ac-completion-face ((,class (:background ,green-3))))
 
    ;; Twittering-mode
    `(my-twittering-metainfo-face ((,class (:foreground "#888888"))))
