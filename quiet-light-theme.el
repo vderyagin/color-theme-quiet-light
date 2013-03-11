@@ -371,6 +371,11 @@
    `(term-color-magenta ((,class (:foreground ,purple-1))))
    `(term-color-cyan ((,class (:foreground ,blue-2))))
 
+   ;; smartparens
+   `(sp-pair-overlay-face ((,class (:background ,orange-4))))
+   `(sp-wrap-overlay-face ((,class (:background ,orange-4))))
+   `(sp-wrap-tag-overlay-face ((,class (:background ,orange-4))))
+
    ;; nrepl
    `(nrepl-error-face ((,class (:inherit font-lock-warning-face)))))
 
@@ -379,8 +384,6 @@
    `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-1 ,blue-1 ,purple-1 ,blue-2 "#999999"])
    `(ansi-color-faces-vector [default bold font-lock-comment-face italic underline success warning error])
    '(frame-background-mode 'light)
-   `(term-default-bg-color ,bg)
-   `(term-default-fg-color ,fg)
    `(vc-annotate-background ,bg)
    '(vc-annotate-color-map '((20  . "#660000") (40  . "#9e0b0f") (60  . "#a0410d") (80  . "#a36209")
                              (100 . "#aba000") (120 . "#598527") (140 . "#1a7b30") (160 . "#007236")
