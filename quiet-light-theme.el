@@ -343,7 +343,8 @@
    `(textile-ul-bullet-face ((,class (:inherit bold))))
 
    ;; whitespace
-   `(whitespace-trailing ((,class (:inherit font-lock-comment-face :background "white"))))
+   `(whitespace-trailing ((,class (:inherit font-lock-comment-face :background ,yellow-1))))
+   `(trailing-whitespace ((,class (:inherit whitespace-trailing))))
    `(whitespace-tab ((,class (:inherit whitespace-trailing :background ,yellow-1))))
    `(whitespace-space-before-tab ((,class (:inherit whitespace-tab))))
    `(whitespace-space-after-tab ((,class (:inherit whitespace-tab))))
