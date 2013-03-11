@@ -277,8 +277,8 @@
    `(yas-field-highlight-face ((,class (:background ,green-3))))
 
    ;; Twittering-mode
-   `(my-twittering-metainfo-face ((,class (:foreground "#888888"))))
-   `(my-twittering-username-face ((,class (:weight bold :height 130 :underline nil))))
+   `(vderyagin-twittering-metainfo-face ((,class (:foreground "#888888"))))
+   `(vderyagin-twittering-username-face ((,class (:weight bold :height 130 :underline nil))))
    `(twittering-username-face ((,class (:weight bold :foreground ,orange-1 :underline nil))))
    `(twittering-uri-face ((,class (:inherit link))))
 
