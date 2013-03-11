@@ -372,6 +372,8 @@
    `(term-color-red ((,class (:foreground ,red-2))))
    `(term-color-white ((,class (:foreground ,bg))))
    `(term-color-yellow ((,class (:foreground ,orange-1))))
+   `(term-underline ((,class (:underline t))))
+   `(term-bold ((,class (:inherit bold))))
 
    ;; smartparens
    `(sp-pair-overlay-face ((,class (:background ,orange-4))))
