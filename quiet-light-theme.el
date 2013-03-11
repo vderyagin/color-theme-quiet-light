@@ -363,13 +363,15 @@
    `(erb-comment-face ((,class (:inherit bold :foreground ,green-1))))
 
    ;; term
-   `(term-face ((,class (:inherit default))))
+   `(term ((,class (:inherit default))))
    `(term-color-black ((,class (:foreground ,fg))))
-   `(term-color-green ((,class (:foreground ,green-1))))
-   `(term-color-yellow ((,class (:foreground ,orange-1))))
    `(term-color-blue ((,class (:foreground ,blue-1))))
-   `(term-color-magenta ((,class (:foreground ,purple-1))))
    `(term-color-cyan ((,class (:foreground ,blue-2))))
+   `(term-color-green ((,class (:foreground ,green-1))))
+   `(term-color-magenta ((,class (:foreground ,purple-1))))
+   `(term-color-red ((,class (:foreground ,red-2))))
+   `(term-color-white ((,class (:foreground ,bg))))
+   `(term-color-yellow ((,class (:foreground ,orange-1))))
 
    ;; smartparens
    `(sp-pair-overlay-face ((,class (:background ,orange-4))))
