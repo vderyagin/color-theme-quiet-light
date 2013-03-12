@@ -274,6 +274,7 @@
    `(widget-button ((,class (:underline nil :weight bold))))
    `(woman-addition ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(woman-bold ((,class (:inherit font-lock-string-face :weight bold))))
+   `(Man-overstrike ((,class (:inherit woman-bold))))
    `(yas-field-highlight-face ((,class (:background ,green-3))))
 
    ;; Twittering-mode
