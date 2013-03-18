@@ -16,7 +16,7 @@
       (grey-1   "#808080")
       (green-1  "#448c27") (green-2  "#a3cfa0") (green-3  "#c9e2c9") (green-4  "#ddffdd")
       (orange-1 "#ab6526") (orange-2 "#e06400") (orange-3 "#e5a775") (orange-4 "#f7d1b4")
-      (red-1    "#660000") (red-2    "#aa3731") (red-3    "#ff6b6b") (red-4    "#c94444")
+      (red-1    "#660000") (red-2    "#aa3731") (red-3    "#ff6b6b")
       (pink-1   "#e7b0b0") (pink-2   "#ffdddd") (pink-3   "#eee3e3")
       (blue-1   "#3c5f8d") (blue-2   "#4b93cd") (blue-3   "#3a5fcd") (blue-4   "#ddddff")
       (purple-1 "#7a3e9d") (purple-2 "#e8c0ff")
@@ -44,7 +44,8 @@
    `(match ((,class (:inherit highlight))))
 
    `(font-lock-builtin-face ((,class (:foreground ,blue-1))))
-   `(font-lock-comment-face ((,class (:foreground ,red-4))))
+   `(font-lock-comment-face ((,class (:foreground "Violetred4"))))
+   `(font-lock-comment-delimiter-face ((,class (:foreground ,grey-1))))
    `(font-lock-constant-face ((,class (:foreground ,orange-1))))
    `(font-lock-function-name-face ((,class (:foreground ,red-2))))
    `(font-lock-keyword-face ((,class (:foreground ,blue-2 :weight bold))))
@@ -350,7 +351,7 @@
   (custom-theme-set-variables
    'quiet-light
    `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-1 ,blue-1 ,purple-1 ,blue-2 "#999999"])
-   `(ansi-color-faces-vector [default bold org-time-grid italic underline success warning error])
+   `(ansi-color-faces-vector [default bold font-lock-comment-delemiter-face italic underline success warning error])
    '(frame-background-mode 'light)
    `(vc-annotate-background ,bg)
    '(vc-annotate-color-map '((20  . "#660000") (40  . "#9e0b0f") (60  . "#a0410d") (80  . "#a36209")
