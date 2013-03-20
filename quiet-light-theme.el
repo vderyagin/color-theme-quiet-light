@@ -1,4 +1,4 @@
-;;; -*- lexical-binding: t -*-
+;;; -*- lexical-binding: t; no-byte-compile: t; coding: utf-8 -*-
 ;;
 ;; Based on the Quiet Light foam for Espresso, by Ian Beck
 ;; Source: <http://github.com/onecrayon/quiet-light.foam>
@@ -364,8 +364,3 @@
                              (340 . "#9e0039")))))
 
 (provide-theme 'quiet-light)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; coding: utf-8
-;; End:
