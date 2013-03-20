@@ -257,6 +257,9 @@
    `(twittering-username-face ((,class (:weight bold :foreground ,orange-1 :underline nil))))
    `(twittering-uri-face ((,class (:inherit link))))
 
+   `(gnus-server-opened ((,class (:inherit bold :foreground ,green-1))))
+   `(gnus-server-closed ((,class (:inherit bold :foreground ,blue-2))))
+
    `(gnus-summary-cancelled ((,class (:inherit diredp-deletion))))
    `(gnus-summary-selected ((,class (:background "white"))))
    `(gnus-summary-normal-ancient ((,class (:foreground "#666666"))))
