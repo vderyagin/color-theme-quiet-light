@@ -264,6 +264,12 @@
    `(gnus-summary-selected ((,class (:background "white"))))
    `(gnus-summary-normal-ancient ((,class (:foreground "#666666"))))
 
+   `(gnus-cite-1 ((,class (:foreground ,blue-1))))
+   `(gnus-cite-2 ((,class (:foreground ,red-2))))
+   `(gnus-cite-3 ((,class (:foreground ,green-1))))
+   `(gnus-cite-4 ((,class (:foreground ,orange-1))))
+   `(gnus-cite-5 ((,class (:foreground ,purple-1))))
+
    `(gnus-group-news-1-empty ((,class (:foreground ,purple-1))))
    `(gnus-group-news-1 ((,class (:inherit gnus-group-news-1-empty :weight bold))))
    `(gnus-group-news-2-empty ((,class (:foreground ,blue-1))))
