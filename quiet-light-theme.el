@@ -270,13 +270,16 @@
    `(gnus-cite-4 ((,class (:foreground ,orange-1))))
    `(gnus-cite-5 ((,class (:foreground ,purple-1))))
 
-   `(gnus-group-news-1-empty ((,class (:foreground ,purple-1))))
+   `(gnus-group-mail-low-empty ((,class (:inherit font-lock-comment-delimiter-face))))
+   `(gnus-group-mail-low ((,class (:inherit gnus-group-mail-low-empty :weight bold))))
+
+   `(gnus-group-news-1-empty ((,class (:foreground ,red-2))))
    `(gnus-group-news-1 ((,class (:inherit gnus-group-news-1-empty :weight bold))))
-   `(gnus-group-news-2-empty ((,class (:foreground ,blue-1))))
+   `(gnus-group-news-2-empty ((,class (:foreground ,orange-1))))
    `(gnus-group-news-2 ((,class (:inherit gnus-group-news-2-empty :weight bold))))
-   `(gnus-group-news-3-empty ((,class (:foreground ,red-1))))
+   `(gnus-group-news-3-empty ((,class (:foreground ,blue-1))))
    `(gnus-group-news-3 ((,class (:inherit gnus-group-news-3-empty :weight bold))))
-   `(gnus-group-news-4-empty ((,class (:foreground ,orange-1))))
+   `(gnus-group-news-4-empty ((,class (:foreground ,purple-1))))
    `(gnus-group-news-4 ((,class (:inherit gnus-group-news-4-empty :weight bold))))
    `(gnus-group-news-5-empty ((,class (:foreground ,orange-2))))
    `(gnus-group-news-5 ((,class (:inherit gnus-group-news-5-empty :weight bold))))
@@ -295,6 +298,8 @@
    `(gnus-header-name ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(gnus-header-newsgroups ((,class (:foreground "#888a85"))))
    `(gnus-header-subject ((,class (:foreground ,red-2 :weight bold))))
+
+   `(gnus-signature ((,class (:inherit font-lock-comment-delimiter-face :slant italic))))
 
    `(message-header-name ((,class (:inherit gnus-header-name))))
    `(message-header-subject ((,class (:inherit gnus-header-subject))))
