@@ -364,7 +364,7 @@
 
   (custom-theme-set-variables
    'quiet-light
-   `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-1 ,blue-1 ,purple-1 ,blue-2 "#999999"])
+   `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-2 ,blue-1 ,purple-1 ,blue-2 "#999999"])
    `(ansi-color-faces-vector [default bold font-lock-comment-delemiter-face italic underline success warning error])
    '(frame-background-mode 'light)
    `(vc-annotate-background ,bg)
