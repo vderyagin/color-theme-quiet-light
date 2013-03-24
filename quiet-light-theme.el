@@ -269,7 +269,12 @@
    `(gnus-cite-3 ((,class (:foreground ,green-1))))
    `(gnus-cite-4 ((,class (:foreground ,orange-1))))
    `(gnus-cite-5 ((,class (:foreground ,purple-1))))
-
+   `(gnus-cite-6 ((,class (:foreground "#00746b"))))
+   `(gnus-cite-7 ((,class (:foreground "#a0410d"))))
+   `(gnus-cite-8 ((,class (:foreground "#9e005d"))))
+   `(gnus-cite-9 ((,class (:foreground "#a36209"))))
+   `(gnus-cite-10 ((,class (:foreground "#0076a3"))))
+   `(gnus-cite-11 ((,class (:foreground "#007236"))))
 
    `(gnus-group-news-1-empty ((,class (:foreground ,red-2))))
    `(gnus-group-news-1 ((,class (:inherit gnus-group-news-1-empty :weight bold))))
