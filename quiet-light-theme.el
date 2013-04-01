@@ -118,13 +118,14 @@
    `(diff-changed ((,class (:background ,yellow-1))))
    `(diff-refine-change ((,class (:background ,blue-4))))
 
-   '(magit-header ((t (:inherit header-line :background "white" :weight bold))))
    `(magit-diff-add ((,class (:inherit diff-added :foreground ,fg))))
    `(magit-diff-del ((,class (:inherit diff-removed :foreground ,fg))))
    `(magit-diff-file-header ((,class (:inherit diff-header))))
    `(magit-diff-hunk-header ((,class (:inherit diff-header))))
    `(magit-diff-none ((,class (:inherit diff-context :foreground ,fg))))
+   `(magit-header ((,class (:inherit header-line :background "white" :weight bold))))
    `(magit-item-highlight ((,class (:weight bold))))
+   `(magit-log-head-label-wip ((,class :box t :background "#cde1e3" :foreground ,blue-1)))
 
    `(ahg-status-marked-face ((,class (:inherit diredp-flag-mark))))
    `(ahg-header-line-face ((,class (:inherit header-line :background "white" :weight bold))))
