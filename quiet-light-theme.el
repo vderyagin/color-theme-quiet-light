@@ -186,9 +186,11 @@
    `(eshell-ls-directory ((,class (:foreground ,blue-1 :weight bold))))
    `(eshell-prompt ((,class (:inherit minibuffer-prompt))))
 
-   `(compilation-error ((,class (:inherit font-lock-warning-face :weight bold))))
-   `(compilation-mode-line-fail ((,class (:inherit compilation-error))))
+   `(compilation-column-number ((,class (:foreground ,blue-1))))
+   `(compilation-error ((,class (:inherit font-lock-warning-face :weight bold :underline t))))
    `(compilation-info ((,class (:background ,bg :foreground ,green-1 :weight bold))))
+   `(compilation-line-number ((,class (:foreground ,green-1))))
+   `(compilation-mode-line-fail ((,class (:inherit compilation-error :underline nil))))
    `(compilation-warning ((,class (:background ,bg :foreground ,orange-2 :weight bold))))
 
    `(custom-group-tag ((,class (:inherit variable-pitch :foreground ,blue-3 :weight bold :height 1.2))))
@@ -370,8 +372,9 @@
 
   (custom-theme-set-variables
    'quiet-light
-   `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-2 ,blue-1 ,purple-1 ,blue-2 "#999999"])
    `(ansi-color-faces-vector [default bold font-lock-comment-delemiter-face italic underline success warning error])
+   `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-2 ,blue-1 ,purple-1 ,blue-2 "#999999"])
+   '(compilation-message-face 'bold)
    '(frame-background-mode 'light)
    `(vc-annotate-background ,bg)
    '(vc-annotate-color-map '((20  . "#660000") (40  . "#9e0b0f") (60  . "#a0410d") (80  . "#a36209")
