@@ -172,6 +172,7 @@
 
    `(info-command-ref-item ((,class (:background "white" :foreground ,blue-4))))
    `(info-file ((,class (:inherit info-command-ref-item))))
+   `(info-menu-star ((,class (:foreground ,red-2))))
    `(info-node ((,class (:inherit font-lock-type-face))))
 
    `(irfc-rfc-number-face ((,class (:foreground ,green-1 :underline t :weight bold))))
