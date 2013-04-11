@@ -345,6 +345,10 @@
    `(gomoku-O ((,class (:inherit bold :foreground ,red-2))))
    `(gomoku-X ((,class (:inherit bold :foreground ,green-1))))
 
+   `(mpuz-unsolved ((,class (:inherit bold :foreground ,red-2))))
+   `(mpuz-solved ((,class (:inherit bold :foreground ,green-1))))
+   `(mpuz-trivial ((,class (:inherit bold :foreground ,blue-1))))
+
    `(ert-test-result-expected ((,class (:foreground ,fg :background ,green-2))))
    `(ert-test-result-unexpected ((,class (:foreground ,fg :background ,pink-1))))
 
