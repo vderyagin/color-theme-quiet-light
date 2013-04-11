@@ -168,8 +168,6 @@
    `(w3m-form ((,class (:foreground ,blue-2 :underline t))))
    `(w3m-header-line-location-title ((,class (:inherit link))))
 
-   `(ido-subdir ((,class (:inherit diredp-dir-priv))))
-
    `(info-command-ref-item ((,class (:background "white" :foreground ,blue-4))))
    `(info-file ((,class (:inherit info-command-ref-item))))
    `(info-menu-star ((,class (:foreground ,red-2))))
@@ -238,23 +236,6 @@
 
    `(slime-repl-inputed-output-face ((,class (:foreground ,red-2 :weight bold))))
    `(slime-repl-prompt-face ((,class (:inherit minibuffer-prompt))))
-
-   `(ac-completion-face ((,class (:background ,green-3))))
-   `(c-annotation-face ((,class (:inherit font-lock-type-face))))
-   `(comint-highlight-prompt ((,class (:inherit minibuffer-prompt))))
-   `(desktop-entry-group-header-face ((,class (:inherit font-lock-type-face))))
-   `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
-   `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
-   `(linum ((,class (:background "#d0d0d0" :foreground ,fg))))
-   `(minibuffer-prompt ((,class (:foreground ,blue-1 :weight bold))))
-   `(proced-marked ((,class (:inherit diredp-flag-mark))))
-   `(tuareg-font-lock-governing-face ((,class (:inherit font-lock-builtin-face :weight bold))))
-   `(which-func ((,class (:inherit font-lock-function-name-face :weight bold))))
-   `(widget-button ((,class (:underline nil :weight bold))))
-   `(woman-addition ((,class (:inherit font-lock-builtin-face :weight bold))))
-   `(woman-bold ((,class (:inherit font-lock-string-face :weight bold))))
-   `(Man-overstrike ((,class (:inherit woman-bold))))
-   `(yas-field-highlight-face ((,class (:background ,green-3))))
 
    `(vderyagin-twittering-metainfo-face ((,class (:foreground "#888888"))))
    `(vderyagin-twittering-username-face ((,class (:weight bold :height 130 :underline nil))))
@@ -373,7 +354,27 @@
    `(sp-wrap-overlay-face ((,class (:background ,orange-4))))
    `(sp-wrap-tag-overlay-face ((,class (:background ,orange-4))))
 
-   `(nrepl-error-face ((,class (:inherit font-lock-warning-face)))))
+   `(woman-addition ((,class (:inherit font-lock-builtin-face :weight bold))))
+   `(woman-bold ((,class (:inherit font-lock-string-face :weight bold))))
+
+   `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
+   `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
+
+   `(Man-overstrike ((,class (:inherit woman-bold))))
+   `(ac-completion-face ((,class (:background ,green-3))))
+   `(c-annotation-face ((,class (:inherit font-lock-type-face))))
+   `(comint-highlight-prompt ((,class (:inherit minibuffer-prompt))))
+   `(desktop-entry-group-header-face ((,class (:inherit font-lock-type-face))))
+   `(linum ((,class (:background "#d0d0d0" :foreground ,fg))))
+   `(macrostep-macro-face ((,class (:inherit font-lock-keyword-face :underline t))))
+   `(minibuffer-prompt ((,class (:foreground ,blue-1 :weight bold))))
+   `(nrepl-error-face ((,class (:inherit font-lock-warning-face))))
+   `(ido-subdir ((,class (:inherit diredp-dir-priv))))
+   `(proced-marked ((,class (:inherit diredp-flag-mark))))
+   `(tuareg-font-lock-governing-face ((,class (:inherit font-lock-builtin-face :weight bold))))
+   `(which-func ((,class (:inherit font-lock-function-name-face :weight bold))))
+   `(widget-button ((,class (:underline nil :weight bold))))
+   `(yas-field-highlight-face ((,class (:background ,green-3)))))
 
   (custom-theme-set-variables
    'quiet-light
