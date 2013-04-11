@@ -360,6 +360,9 @@
    `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
    `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
 
+   `(flyspell-incorrect ((,class (:inherit font-lock-warning-face :weight bold))))
+   `(flyspell-duplicate ((,class (:inherit flyspell-incorrect :foreground ,orange-1))))
+
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
