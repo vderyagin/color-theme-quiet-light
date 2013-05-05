@@ -357,9 +357,6 @@
    `(woman-addition ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(woman-bold ((,class (:inherit font-lock-string-face :weight bold))))
 
-   `(dropdown-list-face ((,class (:inherit ac-candidate-face))))
-   `(dropdown-list-selection-face ((,class (:inherit ac-selection-face))))
-
    `(flyspell-incorrect ((,class (:inherit font-lock-warning-face :weight bold))))
    `(flyspell-duplicate ((,class (:inherit flyspell-incorrect :foreground ,orange-1))))
 
