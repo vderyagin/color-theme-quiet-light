@@ -183,7 +183,7 @@
 
    `(eshell-ls-archive ((,class (:foreground ,purple-1 :weight bold))))
    `(eshell-ls-directory ((,class (:foreground ,blue-1 :weight bold))))
-   `(eshell-prompt ((,class (:inherit minibuffer-prompt))))
+   `(eshell-prompt ((,class (:inherit bold :foreground ,green-1))))
 
    `(compilation-column-number ((,class (:foreground ,blue-1))))
    `(compilation-error ((,class (:inherit font-lock-warning-face :weight bold :underline t))))
