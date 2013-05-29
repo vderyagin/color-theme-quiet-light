@@ -291,12 +291,13 @@
 
    `(gnus-signature ((,class (:inherit font-lock-comment-delimiter-face :slant italic))))
 
-   `(message-header-name ((,class (:inherit gnus-header-name))))
-   `(message-header-subject ((,class (:inherit gnus-header-subject))))
-   `(message-header-cc ((,class (:foreground ,orange-1))))
-   `(message-header-other ((,class (:foreground ,orange-1))))
-   `(message-header-to ((,class (:weight bold :foreground ,orange-1))))
    `(message-cited-text ((,class (:foreground "#888a85"))))
+   `(message-header-cc ((,class (:foreground ,orange-1))))
+   `(message-header-name ((,class (:inherit gnus-header-name))))
+   `(message-header-other ((,class (:foreground ,orange-1))))
+   `(message-header-subject ((,class (:inherit gnus-header-subject))))
+   `(message-header-to ((,class (:weight bold :foreground ,orange-1))))
+   `(message-header-xheader ((,class (:foreground ,blue-3))))
    `(message-separator ((,class (:weight bold :foreground ,green-1))))
 
    `(speedbar-button-face ((,class (:inherit bold))))
