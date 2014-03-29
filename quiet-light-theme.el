@@ -57,9 +57,8 @@
    `(font-lock-variable-name-face ((,class (:foreground ,purple-1))))
    `(font-lock-warning-face ((,class (:foreground ,red-1 :background ,pink-3))))
 
-   `(paren-face-match ((,class (:background ,green-2))))
-   `(paren-face-mismatch ((,class (:background ,orange-4))))
-   `(paren-face-no-match ((,class (:background ,pink-1))))
+   `(show-paren-match ((,class (:background ,green-2))))
+   `(show-paren-mismatch ((,class (:background ,orange-4))))
 
    `(org-agenda-clocking ((,class (:bold t))))
    `(org-agenda-current-time ((,class (:foreground "#555555"))))
