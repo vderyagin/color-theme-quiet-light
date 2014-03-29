@@ -33,6 +33,7 @@
    `(error ((,class (:inherit font-lock-warning-face :weight bold))))
    `(warning ((,class (:foreground ,orange-2 :weight bold))))
    `(success ((,class (:foreground ,green-1 :weight bold))))
+   `(variable-pitch ((,class (:family "DejaVu Sans"))))
 
    `(hl-line ((,class (:background "white"))))
    `(highlight ((,class (:background ,orange-3 :foreground ,fg))))
