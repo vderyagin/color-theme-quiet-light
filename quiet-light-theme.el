@@ -361,6 +361,9 @@
    `(flyspell-incorrect ((,class (:inherit font-lock-warning-face :weight bold))))
    `(flyspell-duplicate ((,class (:inherit flyspell-incorrect :foreground ,orange-1))))
 
+   `(shm-quarantine-face ((,class (:background ,green-3))))
+   `(shm-current-face ((,class (:background "white"))))
+
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
