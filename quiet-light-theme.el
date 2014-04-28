@@ -118,6 +118,11 @@
    `(diff-changed ((,class (:background ,yellow-1))))
    `(diff-refine-change ((,class (:background ,blue-4))))
 
+   `(git-commit-branch-face ((,class (:inherit bold))))
+   `(git-commit-comment-heading-face ((,class (:inherit default))))
+   `(git-commit-comment-action-face ((,class (:inherit font-lock-function-name-face))))
+   `(git-commit-comment-file-face ((,class (:inherit font-lock-string-face))))
+
    `(magit-diff-add ((,class (:inherit diff-added :foreground ,fg))))
    `(magit-diff-del ((,class (:inherit diff-removed :foreground ,fg))))
    `(magit-diff-file-header ((,class (:inherit diff-header))))
