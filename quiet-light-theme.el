@@ -118,6 +118,10 @@
    `(diff-changed ((,class (:background ,yellow-1))))
    `(diff-refine-change ((,class (:background ,blue-4))))
 
+   `(git-commit-address-face ((,class (:inherit font-lock-variable-name-face))))
+   `(git-commit-summary-face ((,class (:inherit default))))
+   `(git-commit-nonempty-second-line-face ((,class (:inherit font-lock-warning-face))))
+   `(git-commit-overlong-summary-face ((,class (:inherit git-commit-nonempty-second-line-face))))
    `(git-commit-branch-face ((,class (:inherit bold))))
    `(git-commit-comment-heading-face ((,class (:inherit default))))
    `(git-commit-comment-action-face ((,class (:inherit font-lock-function-name-face))))
