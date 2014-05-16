@@ -64,6 +64,7 @@
    `(org-agenda-current-time ((,class (:foreground "#555555"))))
    `(org-agenda-date ((,class (:inherit default :slant normal :weight normal :foreground ,orange-1))))
    `(org-agenda-date-today ((,class (:foreground ,orange-1 :box (:line-width -1 :color ,fg)))))
+   `(org-agenda-done ((,class (:inherit default :foreground "#555555"))))
    `(org-agenda-structure ((,class (:inherit font-lock-function-name-face :weight bold))))
    `(org-checkbox ((,class (:inherit bold))))
    `(org-checkbox-statistics-todo ((,class (:inherit bold))))
