@@ -375,7 +375,8 @@
    `(shm-current-face ((,class (:background "white"))))
 
    `(haskell-interactive-face-prompt ((,class (:inherit minibuffer-prompt))))
-   `(haskell-interactive-face-compile-error ((,class (:inherit compilation-error :underline nil))))
+   `(haskell-interactive-face-compile-error ((,class (:foreground ,red-1))))
+   `(haskell-interactive-face-compile-warning ((,class (:foreground ,orange-1))))
 
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
