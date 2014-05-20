@@ -374,6 +374,9 @@
    `(shm-quarantine-face ((,class (:background ,green-3))))
    `(shm-current-face ((,class (:background "white"))))
 
+   `(haskell-interactive-face-prompt ((,class (:inherit minibuffer-prompt))))
+   `(haskell-interactive-face-compile-error ((,class (:inherit compilation-error :underline nil))))
+
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
