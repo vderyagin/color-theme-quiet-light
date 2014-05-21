@@ -378,6 +378,8 @@
    `(haskell-interactive-face-compile-error ((,class (:foreground ,red-1))))
    `(haskell-interactive-face-compile-warning ((,class (:foreground ,orange-1))))
 
+   `(popup-isearch-match ((,class (:background ,orange-3))))
+
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
