@@ -378,6 +378,9 @@
    `(haskell-interactive-face-compile-error ((,class (:foreground ,red-1))))
    `(haskell-interactive-face-compile-warning ((,class (:foreground ,orange-1))))
 
+   `(cider-repl-err-output-face ((,class (:foreground ,red-1))))
+   `(cider-repl-prompt-face ((,class (:inherit minibuffer-prompt))))
+
    `(popup-isearch-match ((,class (:background ,orange-3))))
 
    `(Man-overstrike ((,class (:inherit woman-bold))))
