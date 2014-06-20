@@ -383,6 +383,7 @@
 
    `(popup-isearch-match ((,class (:background ,orange-3))))
 
+   `(rspec-button-face ((,class (:inherit font-lock-function-name-face))))
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
