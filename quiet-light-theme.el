@@ -383,23 +383,25 @@
 
    `(popup-isearch-match ((,class (:background ,orange-3))))
 
-   `(rspec-button-face ((,class (:inherit font-lock-function-name-face))))
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
    `(comint-highlight-prompt ((,class (:inherit minibuffer-prompt))))
    `(desktop-entry-group-header-face ((,class (:inherit font-lock-type-face))))
    `(fancy-narrow-blocked-face ((,class (:foreground ,grey-1))))
+   `(helm-locate-finish ((,class (:inherit compilation-info))))
    `(ido-subdir ((,class (:inherit diredp-dir-priv))))
    `(linum ((,class (:background "#d0d0d0" :foreground ,fg))))
    `(macrostep-macro-face ((,class (:inherit font-lock-keyword-face :underline t))))
    `(minibuffer-prompt ((,class (:foreground ,blue-1 :weight bold))))
    `(nrepl-error-face ((,class (:inherit font-lock-warning-face))))
    `(proced-marked ((,class (:inherit diredp-flag-mark))))
+   `(rspec-button-face ((,class (:inherit font-lock-function-name-face))))
    `(tuareg-font-lock-governing-face ((,class (:inherit font-lock-builtin-face :weight bold))))
    `(which-func ((,class (:inherit font-lock-function-name-face :weight bold))))
    `(widget-button ((,class (:underline nil :weight bold))))
-   `(yas-field-highlight-face ((,class (:background ,green-3)))))
+   `(yas-field-highlight-face ((,class (:background ,green-3))))
+   )
 
   (custom-theme-set-variables
    'quiet-light
