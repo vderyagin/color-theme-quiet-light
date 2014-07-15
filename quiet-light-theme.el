@@ -381,6 +381,9 @@
    `(cider-repl-err-output-face ((,class (:foreground ,red-1))))
    `(cider-repl-prompt-face ((,class (:inherit minibuffer-prompt))))
 
+   `(pe/directory-face ((,class (:inherit diredp-dir-priv :foreground ,fg))))
+   `(pe/file-face ((,class (:inherit diredp-file-name))))
+
    `(popup-isearch-match ((,class (:background ,orange-3))))
 
    `(Man-overstrike ((,class (:inherit woman-bold))))
