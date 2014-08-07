@@ -386,6 +386,12 @@
 
    `(popup-isearch-match ((,class (:background ,orange-3))))
 
+   `(web-mode-block-control-face ((,class (:inherit font-lock-keyword-face))))
+   `(web-mode-block-delimiter-face ((,class (:inherit bold))))
+   `(web-mode-html-attr-name-face ((,class (:inherit font-lock-constant-face))))
+   `(web-mode-html-tag-face ((,class (:inherit font-lock-function-name-face))))
+   `(web-mode-param-name-face ((,class (:inherit font-lock-constant-face))))
+
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
