@@ -391,6 +391,7 @@
    `(web-mode-html-attr-name-face ((,class (:inherit font-lock-constant-face))))
    `(web-mode-html-tag-face ((,class (:inherit font-lock-function-name-face))))
    `(web-mode-param-name-face ((,class (:inherit font-lock-constant-face))))
+   `(web-mode-symbol-face ((,class (:inherit web-mode-html-attr-name-face))))
 
    `(Man-overstrike ((,class (:inherit woman-bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
