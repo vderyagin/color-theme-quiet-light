@@ -420,11 +420,6 @@
    `(ansi-color-names-vector [,fg ,red-2 ,green-1 ,orange-2 ,blue-1 ,purple-1 ,blue-2 "#999999"])
    '(compilation-message-face 'bold)
    '(frame-background-mode 'light)
-   `(vc-annotate-background ,bg)
-   '(vc-annotate-color-map '((20  . "#660000") (40  . "#9e0b0f") (60  . "#a0410d") (80  . "#a36209")
-                             (100 . "#aba000") (120 . "#598527") (140 . "#1a7b30") (160 . "#007236")
-                             (180 . "#00746b") (200 . "#0076a3") (220 . "#004b80") (240 . "#003471")
-                             (260 . "#1b1464") (280 . "#440e62") (300 . "#630460") (320 . "#9e005d")
-                             (340 . "#9e0039")))))
+   ))
 
 (provide-theme 'quiet-light)
