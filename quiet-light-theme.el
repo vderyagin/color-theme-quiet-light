@@ -394,7 +394,7 @@
    `(web-mode-param-name-face ((,class (:inherit font-lock-constant-face))))
    `(web-mode-symbol-face ((,class (:inherit web-mode-html-attr-name-face))))
 
-   `(Man-overstrike ((,class (:inherit woman-bold))))
+   `(Man-overstrike ((,class (:inherit font-lock-string-face :weight bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
    `(comint-highlight-prompt ((,class (:inherit minibuffer-prompt))))
