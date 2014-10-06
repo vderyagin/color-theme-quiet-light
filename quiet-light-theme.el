@@ -91,6 +91,8 @@
    `(org-time-grid ((,class (:foreground ,grey-1))))
    `(org-warning ((,class (:inherit font-lock-warning-face :background ,bg :weight bold))))
 
+   `(dired-async-message ((,class (:inherit bold))))
+   `(dired-async-mode-message ((,class (:inherit bold :background ,green-3))))
    `(diredp-compressed-file-suffix ((,class (:inherit diredp-ignored-file-name :weight bold))))
    `(diredp-deletion ((,class (:background ,pink-1 :weight bold))))
    `(diredp-deletion-file-name ((,class (:inherit diredp-deletion))))
