@@ -243,6 +243,11 @@
    `(mode-line-highlight ((,class (:box (:line-width -2 :color ,fg)))))
    `(mode-line-inactive ((,class (:background ,bg :box (:line-width -1 :color "#999999")))))
 
+   `(sml/git ((,class (:inherit sml/vc))))
+   `(sml/modified ((,class (:inherit bold :foreground ,red-2))))
+   `(sml/vc ((,class (:foreground ,blue-1))))
+   `(sml/vc-edited ((,class (:inherit sml/vc :weight bold))))
+
    `(flymake-warnline ((,class (:background ,yellow-1))))
    `(flymake-errline ((,class (:background ,pink-1))))
 
