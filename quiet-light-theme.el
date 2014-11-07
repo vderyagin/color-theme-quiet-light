@@ -167,13 +167,13 @@
    `(jabber-title-medium ((,class (:inherit variable-pitch :weight bold :height 1.5 :width expanded))))
 
    `(outline-1 ((,class (:inherit font-lock-function-name-face :weight bold))))
-   `(outline-2 ((,class (:inherit font-lock-variable-name-face :weight normal))))
-   `(outline-3 ((,class (:inherit font-lock-keyword-face :weight normal))))
+   `(outline-2 ((,class (:inherit font-lock-comment-face :weight normal))))
+   `(outline-3 ((,class (:inherit font-lock-builtin-face :weight normal))))
    `(outline-4 ((,class (:inherit font-lock-string-face :weight normal))))
    `(outline-5 ((,class (:inherit font-lock-type-face :weight normal))))
    `(outline-6 ((,class (:inherit font-lock-constant-face :weight normal))))
-   `(outline-7 ((,class (:inherit font-lock-builtin-face :weight normal))))
-   `(outline-8 ((,class (:inherit font-lock-comment-face :weight normal))))
+   `(outline-7 ((,class (:inherit font-lock-keyword-face :weight normal))))
+   `(outline-8 ((,class (:inherit font-lock-variable-name-face :weight normal))))
 
    `(w3m-anchor ((,class (:inherit link))))
    `(w3m-arrived-anchor ((,class (:inherit link-visited))))
