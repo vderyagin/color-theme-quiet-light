@@ -401,6 +401,16 @@
    `(web-mode-param-name-face ((,class (:inherit font-lock-constant-face))))
    `(web-mode-symbol-face ((,class (:inherit web-mode-html-attr-name-face))))
 
+   `(ledger-font-comment-face ((,class (:inherit font-lock-comment-face))))
+   `(ledger-font-directive-face ((,class (:inherit font-lock-keyword-face))))
+   `(ledger-font-payee-cleared-face ((,class (:inherit font-lock-string-face :weight bold))))
+   `(ledger-font-payee-pending-face ((,class (:inherit warning))))
+   `(ledger-font-payee-uncleared-face ((,class (:inherit ledger-font-payee-pending-face :weight normal))))
+   `(ledger-font-posting-account-face ((,class (:inherit font-lock-variable-name-face))))
+   `(ledger-font-posting-amount-face ((,class (:inherit font-lock-builtin-face :weight bold))))
+   `(ledger-font-posting-date-face ((,class (:inherit bold))))
+   `(ledger-occur-xact-face ((,class (:inherit hl-line))))
+
    `(Man-overstrike ((,class (:inherit font-lock-string-face :weight bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
