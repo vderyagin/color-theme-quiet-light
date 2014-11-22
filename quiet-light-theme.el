@@ -406,6 +406,7 @@
    `(ledger-font-payee-cleared-face ((,class (:inherit font-lock-string-face :weight bold))))
    `(ledger-font-payee-pending-face ((,class (:inherit warning))))
    `(ledger-font-payee-uncleared-face ((,class (:inherit ledger-font-payee-pending-face :weight normal))))
+   `(ledger-font-periodic-xact-face ((,class (:inherit font-lock-string-face))))
    `(ledger-font-posting-account-face ((,class (:inherit font-lock-variable-name-face))))
    `(ledger-font-posting-amount-face ((,class (:inherit font-lock-builtin-face :weight normal))))
    `(ledger-font-posting-date-face ((,class (:inherit bold))))
