@@ -414,6 +414,9 @@
    `(ledger-font-posting-date-face ((,class (:inherit bold))))
    `(ledger-occur-xact-face ((,class (:inherit hl-line))))
 
+   `(ace-jump-face-background ((,class (:inherit default :foreground ,grey-1))))
+   `(ace-jump-face-foreground ((,class (:inherit bold :foreground ,red-2))))
+
    `(Man-overstrike ((,class (:inherit font-lock-string-face :weight bold))))
    `(ac-completion-face ((,class (:background ,green-3))))
    `(c-annotation-face ((,class (:inherit font-lock-type-face))))
