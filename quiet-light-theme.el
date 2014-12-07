@@ -369,6 +369,8 @@
    `(term-bold ((,class (:inherit bold))))
 
    `(sp-pair-overlay-face ((,class (:background ,orange-4))))
+   `(sp-show-pair-match-face ((,class (:inherit show-paren-match))))
+   `(sp-show-pair-mismatch-face ((,class (:inherit show-paren-mismatch))))
    `(sp-wrap-overlay-face ((,class (:background ,orange-4))))
    `(sp-wrap-tag-overlay-face ((,class (:background ,orange-4))))
 
