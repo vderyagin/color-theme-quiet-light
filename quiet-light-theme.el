@@ -67,6 +67,7 @@
    `(org-agenda-done ((,class (:inherit default :foreground "#555555"))))
    `(org-agenda-structure ((,class (:inherit font-lock-function-name-face :weight bold))))
    `(org-block-begin-line ((,class (:inherit font-lock-comment-delimiter-face))))
+   `(org-meta-line ((,class (:inherit font-lock-comment-delimiter-face))))
    `(org-block-end-line ((,class (:inherit org-block-begin-line))))
    `(org-checkbox ((,class (:inherit bold))))
    `(org-checkbox-statistics-todo ((,class (:inherit bold))))
@@ -241,9 +242,15 @@
    `(sh-heredoc ((,class (:foreground ,orange-2))))
    `(sh-quoted-exec ((,class (:foreground ,red-1))))
 
-   `(mode-line ((,class (:background "#bfbfbf" :box (:line-width -1 :color ,fg)))))
    `(mode-line-highlight ((,class (:box (:line-width -2 :color ,fg)))))
-   `(mode-line-inactive ((,class (:background ,bg :box (:line-width -1 :color "#999999")))))
+
+   `(mode-line ((,class (:background "#ddd" :box (:line-width -1 :color "#aaa")))))
+   `(mode-line-inactive ((,class (:background "#ddd"  :box (:line-width -1 :color "#ccc")))))
+
+   `(powerline-active1 ((,class (:inherit mode-line :background "#aaa" :foreground "black"))))
+   `(powerline-active2 ((,class (:inherit mode-line))))
+   `(powerline-inactive1 ((,class (:inherit mode-line-inactive :background "#ccc"))))
+   `(powerline-inactive2 ((,class (:inherit mode-line-inactive))))
 
    `(sml/git ((,class (:inherit sml/vc))))
    `(sml/modified ((,class (:inherit bold :foreground ,red-2))))
