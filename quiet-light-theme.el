@@ -243,19 +243,8 @@
    `(sh-quoted-exec ((,class (:foreground ,red-1))))
 
    `(mode-line-highlight ((,class (:box (:line-width -2 :color ,fg)))))
-
-   `(mode-line ((,class (:background "#ddd" :box (:line-width -1 :color "#aaa")))))
-   `(mode-line-inactive ((,class (:background "#ddd"  :box (:line-width -1 :color "#ccc")))))
-
-   `(powerline-active1 ((,class (:inherit mode-line :background "#aaa" :foreground "black"))))
-   `(powerline-active2 ((,class (:inherit mode-line))))
-   `(powerline-inactive1 ((,class (:inherit mode-line-inactive :background "#ccc"))))
-   `(powerline-inactive2 ((,class (:inherit mode-line-inactive))))
-
-   `(sml/git ((,class (:inherit sml/vc))))
-   `(sml/modified ((,class (:inherit bold :foreground ,red-2))))
-   `(sml/vc ((,class (:foreground ,blue-1))))
-   `(sml/vc-edited ((,class (:inherit sml/vc :weight bold))))
+   `(mode-line ((,class (:background "#ddd" :box (:line-width -1 :color "#777")))))
+   `(mode-line-inactive ((,class (:background "#ddd" :foreground "#555" :box (:line-width -1 :color "#ddd")))))
 
    `(flymake-warnline ((,class (:background ,yellow-1))))
    `(flymake-errline ((,class (:background ,pink-1))))
