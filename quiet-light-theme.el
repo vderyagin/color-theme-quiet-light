@@ -424,6 +424,8 @@
    `(helm-locate-finish ((,class (:inherit compilation-info))))
    `(idle-highlight ((,class (:box (:line-width -1 :color ,grey-1)))))
    `(ido-subdir ((,class (:inherit diredp-dir-priv))))
+   `(ido-vertical-match-face ((,class (:inherit bold :underline t))))
+   `(ido-vertical-only-match-face ((,class (:inherit font-lock-string-face))))
    `(linum ((,class (:background "#d0d0d0" :foreground ,fg))))
    `(macrostep-macro-face ((,class (:inherit font-lock-keyword-face :underline t))))
    `(minibuffer-prompt ((,class (:foreground ,blue-1 :weight bold))))
