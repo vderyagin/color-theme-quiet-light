@@ -393,6 +393,8 @@
 
    `(popup-isearch-match ((,class (:background ,orange-3))))
 
+   `(web-mode-block-attr-name-face ((,class (:inherit web-mode-html-attr-name-face))))
+   `(web-mode-block-attr-value-face ((,class (:inherit web-mode-html-attr-value-face))))
    `(web-mode-block-control-face ((,class (:inherit font-lock-keyword-face))))
    `(web-mode-block-delimiter-face ((,class (:inherit bold))))
    `(web-mode-doctype-face ((,class (:inherit font-lock-keyword-face))))
